@@ -18,12 +18,10 @@ public class Solution {
 
         while (f.ready()) {
             String s = f.readLine();
-            if (s.startsWith(args[0]))
+            if (s.startsWith(args[0] + " ")) {
                 System.out.println(s);
+            }
         }
-
-
         f.close();
-
     }
 }
