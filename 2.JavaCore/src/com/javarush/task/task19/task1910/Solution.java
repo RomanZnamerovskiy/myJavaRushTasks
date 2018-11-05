@@ -1,7 +1,7 @@
-package com.javarush.task.task19.task1909;
+package com.javarush.task.task19.task1910;
 
 /* 
-Замена знаков
+Пунктуация
 */
 
 import java.io.*;
@@ -17,13 +17,10 @@ public class Solution {
 
         while (fileReader.ready()) {
             String s = fileReader.readLine();
-            if (s.contains(".")) {
-                s = s.replace(".", "!");
-            }
-            fileWriter.write(s);
+            fileWriter.write(s.replaceAll("[\\p{Punct}\\n]",""));
         }
+
         fileReader.close();
         fileWriter.close();
-
     }
 }
