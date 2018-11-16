@@ -13,9 +13,7 @@ public class Solution {
 
         String fileName = sc.next();
         FileInputStream fileReader = new FileInputStream(fileName);
-        int min = 0;
-        if (fileReader.available() > 0)
-            min = fileReader.read();
+        int min = 1000;
         while (fileReader.available() > 0) {
             int b = fileReader.read();
             if (min > b) {
