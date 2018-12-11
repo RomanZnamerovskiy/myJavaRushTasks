@@ -43555,3 +43555,10 @@ java.lang.Throwable: Assertion failed: Provider com.javarush.plugin.TestEditorPr
 2018-12-11 09:53:22 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
 2018-12-11 09:54:22 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
 2018-12-11 09:55:22 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2018-12-11 09:56:06 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2018-12-11 09:56:06 INFO  ApacheHttpClient.testConnection(201) - result = true
+2018-12-11 09:56:22 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2018-12-11 09:56:41 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2018-12-11 09:56:41 INFO  ApacheHttpClient.testConnection(201) - result = true
+2018-12-11 09:56:45 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2018-12-11 09:56:45 INFO  ApacheHttpClient.testConnection(201) - result = true
