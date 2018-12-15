@@ -15,7 +15,7 @@ public class Arkanoid {
     private ArrayList<Brick> bricks = new ArrayList<Brick>();
     // шарик
     private Ball ball;
-    // подставка
+    // подставка tututu ttt
     private Stand stand;
 
     // игра закончена?
