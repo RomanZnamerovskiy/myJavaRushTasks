@@ -27,6 +27,11 @@ public class MainModel implements Model {
         modelData.setDisplayDeletedUserList(true);
         List<User> deletedUsers = userService.getAllDeletedUsers();
         modelData.setUsers(deletedUsers);
-
      }
+
+    public void loadUserById(long userId) {
+        User user = userService.getUsersById(userId);
+        modelData.setActiveUser(user);
+    }
+
 }
