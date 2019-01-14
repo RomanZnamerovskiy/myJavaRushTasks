@@ -7,7 +7,7 @@ public class SortArray {
 //    public static void main(String[] args) {
 //        int[] arrInt = new int[20];
 //        for (int i = 0; i < arrInt.length; i++) {
-//            arrInt[i] = (int) (Math.random() * 1000);
+//            arrInt[i] = (int) (Math.RANDOM() * 1000);
 //        }
 //
 //        bubleSortReverse(arrInt);
