@@ -14,18 +14,18 @@ public class Solution {
     4. Проделай п.1-3 для класса Consumer.
      */
 
-//    public static void main(String[] args) throws InterruptedException {
-//        TransferQueue<ShareItem> queue = new LinkedTransferQueue<>();
-//
-//        Thread producer = new Thread(new Producer(queue));
-//        Thread consumer = new Thread(new Consumer(queue));
-//        producer.start();
-//        consumer.start();
-//
-//        Thread.sleep(1500);
-//
-//        producer.interrupt();
-//        consumer.interrupt();
-//    }
+    public static void main(String[] args) throws InterruptedException {
+        TransferQueue<ShareItem> queue = new LinkedTransferQueue<>();
+
+        Thread producer = new Thread(new Producer(queue));
+        Thread consumer = new Thread(new Consumer(queue));
+        producer.start();
+        consumer.start();
+
+        Thread.sleep(1500);
+
+        producer.interrupt();
+        consumer.interrupt();
+    }
 
 }
